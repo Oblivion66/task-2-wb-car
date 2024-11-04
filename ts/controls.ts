@@ -1,3 +1,5 @@
+import { Car } from "./interfaces";
+
 export function displayCarInfo(car: Car): void {
   console.log(`\n--- Сводка о машине ---`);
   console.log(`Модель: ${car.model}`);
