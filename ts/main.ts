@@ -1,5 +1,5 @@
 // ts/main.ts
-import { Car } from "./interfaces";
+import { Car } from "./interfaces.js";
 import {
     displayCarInfo,
     updateMileage,
@@ -7,7 +7,7 @@ import {
     toggleHeadlights,
     setClimateControl,
     turnOffClimateControl,
-} from "./controls";
+} from "./controls.js";
 // Создаем экземпляр автомобиля
 const myCar: Car = {
   model: "Toyota Camry",
